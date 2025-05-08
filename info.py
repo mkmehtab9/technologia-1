@@ -23,7 +23,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001952883830').split()]
 MOVIE_UPDATE = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('MOVIE_UPDATE', '-1002122516919').split()]
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for ch in environ.get('DELETE_CHANNELS', '-1002122516919').split()]
-AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002329006749').split()]
+AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002251903769').split()]
 
 USERNAME = environ.get('USERNAME', "https://t.me/@Arya_2530")
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+Or0VDrXEy8AyYzA1')
@@ -38,7 +38,7 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002689335197'))
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002689335197'))
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002689335197'))
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002552714461'))
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001234567890'))  # Replace with correct ID
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002251903769'))  # Replace with correct ID
 REQ_CHANNEL = int(environ.get('REQ_CHANNEL', '-1002689335197')) 
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002571082220'))
 
