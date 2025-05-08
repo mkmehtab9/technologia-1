@@ -33,13 +33,13 @@ TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me//42")
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/'))
 URL = environ.get('URL', 'http://...22:8000')
 
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002298769311'))
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002689335197'))
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002689335197'))
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002689335197'))
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002552714461'))
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002251903769'))  # Replace with correct ID
-REQ_CHANNEL = int(environ.get('REQ_CHANNEL', '-1002689335197')) 
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002571082220'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002571082220'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002571082220'))
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002571082220'))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002571082220'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001458600553'))  # Replace with correct ID
+REQ_CHANNEL = int(environ.get('REQ_CHANNEL', '-1002571082220')) 
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002571082220'))
 
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://yashdd:yoman@yashdd.2rsdjsv.mongodb.net/?retryWrites=true&w=majority&appName=yashdd")
