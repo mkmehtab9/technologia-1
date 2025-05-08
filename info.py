@@ -42,8 +42,8 @@ SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002251903769'))  # Replace w
 REQ_CHANNEL = int(environ.get('REQ_CHANNEL', '-1002689335197')) 
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002571082220'))
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://soniji:chaloji@cluster0.i5zy74f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://soniji:chaloji@cluster0.i5zy74f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://yashdd:yoman@yashdd.2rsdjsv.mongodb.net/?retryWrites=true&w=majority&appName=yashdd")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://yashdd:yoman@yashdd.2rsdjsv.mongodb.net/?retryWrites=true&w=majority&appName=yashdd")
 DATABASE_NAME = environ.get('DATABASE_NAME', "yashdd")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'movies')
 
