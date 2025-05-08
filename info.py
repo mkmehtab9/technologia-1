@@ -22,7 +22,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7733173048:AAH1_jZLbZqqMzAHZiqQ110JXPe9WoS
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1586261625').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001952883830').split()]
 MOVIE_UPDATE = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('MOVIE_UPDATE', '-1002122516919').split()]
-DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for ch in environ.get('DELETE_CHANNELS', '-1002122516919').split()]
+DELETE_CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('DELETE_CHANNELS', '-1002122516919').split()]  # Fixed dch to ch
 AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002251903769').split()]
 
 USERNAME = environ.get('USERNAME', "https://t.me/@Arya_2530")
