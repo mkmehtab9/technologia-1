@@ -1,4 +1,3 @@
-
 import re
 import os
 from os import environ
@@ -15,16 +14,16 @@ def is_enabled(value, default):
     else:
         return default
 
-#main variables
+# Main variables
 API_ID = int(environ.get('API_ID', '22470161'))
 API_HASH = environ.get('API_HASH', '1360539223d4b5c2eecad27f9cac40c5')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7733173048:AAH1_jZLbZqqMzAHZiqQ110JXPe9WoSnqIY')
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1586261625').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001952883830 -1001931435328 -1002032241046 -1002500062682 -1001863061409 -1001627590692').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001952883830').split()]
 MOVIE_UPDATE = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('MOVIE_UPDATE', '-1002122516919').split()]
-DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002122516919').split()]
-AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002329006749').split()] # give channel id with seperate space. Ex : ('-10073828 -102782829 -1007282828')
+DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for ch in environ.get('DELETE_CHANNELS', '-1002122516919').split()]
+AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002329006749').split()]
 
 USERNAME = environ.get('USERNAME', "https://t.me/@Arya_2530")
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+Or0VDrXEy8AyYzA1')
@@ -38,10 +37,10 @@ LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002298769311'))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002689335197'))
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002689335197'))
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002689335197'))
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS','-1002552714461'))
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002666326754'))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002552714461'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001234567890'))  # Replace with correct ID
 REQ_CHANNEL = int(environ.get('REQ_CHANNEL', '-1002689335197')) 
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002571082220'))
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002571082220'))
 
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://soniji:chaloji@cluster0.i5zy74f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://soniji:chaloji@cluster0.i5zy74f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -56,7 +55,7 @@ START_IMG = environ.get('START_IMG', 'https://envs.sh/bNy.jpg').split()
 MONEY_IMG = environ.get('MONEY_IMG', 'https://graph.org/file/f53094fbcccead10fb6e7.jpg')
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 
-REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '15')) # number of referal count
+REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '15'))
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '7day')
 
 STREAM_API = (environ.get('STREAM_API', 'b53e4769ab3cc30124a32cb9c27496c7ddaddecc'))
@@ -66,10 +65,9 @@ SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'Arlinks.in')
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'Arlinks.in')
 STREAM_SITE = (environ.get('STREAM_SITE', 'gplinks.com'))
 
-# languages search
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi"]
 QUALITIES = ["480p", "720p", "1080p", "HdRip", "1440p", "2160p"]
-SEASONS = [f'season {i}'for i in range (1 , 23)]
+SEASONS = [f'season {i}' for i in range(1, 23)]
 
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 DELETE_TIME = int(environ.get('DELETE_TIME', 300))
