@@ -16,37 +16,37 @@ def is_enabled(value, default):
         return default
 
 #main variables
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', ':')
+API_ID = int(environ.get('API_ID', '22470161'))
+API_HASH = environ.get('API_HASH', '1360539223d4b5c2eecad27f9cac40c5')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7733173048:AAH1_jZLbZqqMzAHZiqQ110JXPe9WoSnqIY')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6093349648').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1586261625').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001952883830 -1001931435328 -1002032241046 -1002500062682 -1001863061409 -1001627590692').split()]
 MOVIE_UPDATE = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('MOVIE_UPDATE', '-1002122516919').split()]
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002122516919').split()]
 AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002329006749').split()] # give channel id with seperate space. Ex : ('-10073828 -102782829 -1007282828')
 
-USERNAME = environ.get('USERNAME', "https://t.")
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/')
+USERNAME = environ.get('USERNAME', "https://t.me/@Arya_2530")
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+Or0VDrXEy8AyYzA1')
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/')
 TUTORIAL = environ.get("TUTORIAL", "t.me//42")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me//42")
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/'))
 URL = environ.get('URL', 'http://...22:8000')
 
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002484794506'))
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002122516919'))
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002122516919'))
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002122516919'))
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS','-1002122516919'))
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002400409881'))
-REQ_CHANNEL = int(environ.get('REQ_CHANNEL', '-1002122516919')) 
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002554117358'))
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002298769311'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002689335197'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002689335197'))
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002689335197'))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS','-1002552714461'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002666326754'))
+REQ_CHANNEL = int(environ.get('REQ_CHANNEL', '-1002689335197')) 
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002571082220'))
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://:@cluster0.6qauv.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://:@cluster0.bgoan.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluster_0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'mtqlfehk')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://yashdd:password@yashdd.2rsdjsv.mongodb.net/?retryWrites=true&w=majority&appName=yashdd")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://yashdd:password@yashdd.2rsdjsv.mongodb.net/?retryWrites=true&w=majority&appName=yashdd")
+DATABASE_NAME = environ.get('DATABASE_NAME', "yashdd")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'movies')
 
 WELCOME_VID = environ.get("WELCOME_VID", "https://telegra.ph/file/451f038b4e7c2ddd10dc0.mp4")
 QR_CODE = environ.get('QR_CODE', 'https://i.ibb.co/4ZBGF89w/photo-2024-04-13-10-32-08-7477941501499015184.jpg')
