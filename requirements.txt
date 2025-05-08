@@ -5,28 +5,26 @@ marshmallow==3.22.0
 motor==3.5.1
 pymongo==4.8.0
 git+https://github.com/Joelkb/cinemagoer
-asyncio
-aiohttp
-marshmallow
-beanie>=1.26.0
-pillow
-pyrotgfork[fast]
-pymongo[srv]
-prettytable
-python-dotenv
-requests
-dnspython
+Heroku3
+search_engine_parser
 wget
-bs4
-cinemagoer
-heroku3
-pynewtonmath
+aiofiles
+ffmpeg-python
+ffmpeg
+requests
+aiohttp
+telegraph
+ujson
+pyshorteners
 datetime
 pytz
-python-dateutil
-schedule
-apscheduler
-aiofiles
+dnspython==2.3.0
+# aiohttp
+python-math
+Pillow
+speedtest-cli
+psutil
+shortzy
 
 
 Flask==1.1.2
