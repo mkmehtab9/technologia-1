@@ -64,7 +64,7 @@ Reach a wider audience at a minimal cost with impression-based ads!
 ʙᴜʏ ᴘᴀɪᴅ ᴘʟᴀɴ ʙʏ - /plan</b>"""
 
     FILE_CAPTION = """ 
-<b>🗂️ ɴᴀᴍᴇ :  <a href="https://t.me/mkkoreanhindimk">{file_name}</a></b>"""
+<b>🗂️ ɴᴀᴍᴇ :  <a href="">{file_name}</a></b>"""
    
     IMDB_TEMPLATE_TXT = """
 🍿 Title: {title}
